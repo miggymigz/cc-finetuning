@@ -5,8 +5,8 @@ import requests
 
 
 def train(
-    variant='124M',
-    dataset='dataset.npz',
+    variant='345M',
+    dataset='repositories.npz',
     steps=10_000,
 ):
     # ensure pretrained gpt-2 variant is downloaded locally
